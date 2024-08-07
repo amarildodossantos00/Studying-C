@@ -6,7 +6,7 @@
 
 typedef struct pessoa{
     int idade;
-    struct no *proximo;
+    struct pessoa *proximo;
 }Pessoa;
 
 
